@@ -20,7 +20,7 @@ tags:
 
 ![](/assets/images/htb-writeup-delivery/delivery_logo.png)
 
-Delivery is a quick and fun easy box where we have to create a MatterMost account and validate it by using automatic email accounts created by the OsTicket application. The admins on this platform have very poor security practices and put plaintext credentials in MatterMost. Once we get the initial shell with the creds from MatterMost we'll poke around MySQL and get a root password bcrypt hash. Using a hint left in the MatterMost channel about the password being a variation of PleaseSubscribe!, we'll use hashcat combined with rules to crack the password then get the root shell.
+En la máquina Delivery de HackTheBox, creamos una cuenta en MatterMost y la validamos usando correos electrónicos automáticos de OsTicket. Los administradores de esta plataforma tienen malas prácticas de seguridad, dejando credenciales en texto plano. Al obtener acceso inicial con estas credenciales, exploramos MySQL y obtenemos un hash de contraseña de root. Usando una pista en MatterMost usamos hashcat para descifrarla y obtener acceso de root.
 
 ## Portscan
 
