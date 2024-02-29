@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Delivery - Hack The Box
-excerpt: "En la máquina "Delivery" de HackTheBox, creamos una cuenta en MatterMost y la validamos usando correos electrónicos automáticos de OsTicket. Los administradores de esta plataforma tienen malas prácticas de seguridad, dejando credenciales en texto plano. Al obtener acceso inicial con estas credenciales, exploramos MySQL y obtenemos un hash de contraseña de root. Usando una pista en MatterMost usamos hashcat para descifrarla y obtener acceso de root."
+excerpt: "En la máquina Delivery de HackTheBox, creamos una cuenta en MatterMost y la validamos usando correos electrónicos automáticos de OsTicket. Los administradores de esta plataforma tienen malas prácticas de seguridad, dejando credenciales en texto plano. Al obtener acceso inicial con estas credenciales, exploramos MySQL y obtenemos un hash de contraseña de root. Usando una pista en MatterMost usamos hashcat para descifrarla y obtener acceso de root."
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-delivery/delivery_logo.png
